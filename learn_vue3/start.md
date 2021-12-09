@@ -40,5 +40,17 @@
 
 #### vue 的内在
 
-​	
+- reactivity响应式系统
+
+  依赖收集和派发更新， 每个组件一个watcher实例，组件级响应
+
+- runtime运行时系统
+
+  runtime-core   render函数 -> virtual dom
+
+  runtime-dom   virtual dom -> dom
+
+- complier 编译器
+
+  模板 -> render函数
 
